@@ -12,26 +12,13 @@ nav {
 
 body {
   background-color: #EBEDF2;
-}
-
-h1 {
-  font-family: Garamond, sans-serif;
-  color: #591902;
-}
-
-h2 {
-  font-family: Garamond, sans-serif;
-  color: #591902;
-}
-
-p {
   font-family: Arial, Helvetica, serif;
   color: black;
 }
 
-li {
-  font-family: Arial, Helvetica, serif;
-  color: black;
+h1 , h2, h3, h4 {
+  font-family: Garamond, sans-serif;
+  color: #591902;
 }
 
 footer {
