@@ -1,24 +1,27 @@
 import React from 'react';
-import { Navigation } from '../src/components/navigation';
+import logo from '../assets/logo.png';
+import Navigation from '../components/navigation';
 
 class Header extends React.Component {
 
      render() {
           return (
           <>
-          <section className='header'>
-               <section className='header-top'>
-                    <section className='header-top_logo'>
-                         <a href="/" className='header-logo'>LOGO</a>
-                    </section>
-                    <section className='header-top_navbar'>
-                        <Navigation />
+          <header>
+               <section className='header'>
+                    <section className='header-top'>
+                         <section className='header-top_logo'>
+                              <a href="/" className='header-logo'> <img src={logo} width={300} height={100} alt='Morning Snack'/></a>
+                         </section>
+                         <section className='header-top_navbar'>
+                              <Navigation />
+                         </section>
+                         <section>
+                              <p className='bookReservations'><a href="/reservations">BOOK RESERVATION</a></p>
+                         </section>
                     </section>
                </section>
-               <section className='header-bottom'>
-                   
-               </section>
-          </section>
+          </header>
           </>  
           )  
      }

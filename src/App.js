@@ -17,7 +17,6 @@ function App() {
      <div>
           <Header/>
           <Router>
-               <Navigation/>
                <Routes>
                     <Route exact path="/"  element={<Home />}/>
                     <Route exact path="/reservations" element={<Reservations />}/>

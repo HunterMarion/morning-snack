@@ -11,6 +11,11 @@ nav {
   color: #591902;
 }
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 body {
   background-color: #EBEDF2;
   font-family: Arial, Helvetica, serif;
@@ -28,6 +33,8 @@ footer {
 
 
 
+
+
 /*Classes*/
 
 .header {
@@ -37,6 +44,39 @@ footer {
   flex-direction: column;
 }
 
+.header-top {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+
+.header-top__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-logo {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: RobotoThin;
+  font-size: 100px;
+}
+
+.header-top__navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-top__navigation {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 55px;
+}
 
 .navbar {
   display: flex;
@@ -54,9 +94,7 @@ footer {
   outline: none;
 }
 
-
-
-.book-reservations {
+.bookReservations {
   background-color: #FFFFFF;
   border: none;
   color: #F28B0C;
@@ -68,20 +106,17 @@ footer {
   clear: both;
 }
 
-.book-reservations:hover {
+.bookReservations:hover {
   background-color: #BF7960;
   color: white;
+  text-decoration: none;
 }
+
+
 
 
 
 /* IDs*/
-
-#logo-title {
-  font-family: Lulo Clean, sans-serif;
-  color: white;
-  font-size: 1.5em;
-}
 
 
 
