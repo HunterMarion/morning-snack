@@ -2,6 +2,7 @@
 
 header {
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
   background-color: #591902;
 }
 
@@ -14,9 +15,9 @@ body {
   background-color: #EBEDF2;
   font-family: Arial, Helvetica, serif;
   color: black;
-}
+} 
 
-h1 , h2, h3, h4 {
+h2, h3, h4 {
   font-family: Garamond, sans-serif;
   color: #591902;
 }
@@ -29,6 +30,59 @@ footer {
 
 /*Classes*/
 
+.header {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: #EBEDF2;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  outline: none;
+}
+
+
+
+.book-reservations {
+  background-color: #FFFFFF;
+  border: none;
+  color: #F28B0C;
+  padding: .1em .5em;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-size: 25px;
+  clear: both;
+}
+
+.book-reservations:hover {
+  background-color: #BF7960;
+  color: white;
+}
+
+
+
 /* IDs*/
+
+#logo-title {
+  font-family: Lulo Clean, sans-serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+
 
 /*Specific CSS Features*/
