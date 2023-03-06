@@ -16,7 +16,7 @@ class Header extends React.Component {
                          <section className='header-top_navbar'>
                               <Navigation />
                          </section>
-                         <section>
+                         <section className='booking-button'>
                               <p className='bookReservations'><a href="/reservations">BOOK RESERVATION</a></p>
                          </section>
                     </section>
