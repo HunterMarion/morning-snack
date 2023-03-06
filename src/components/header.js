@@ -1,13 +1,24 @@
 import React from 'react';
+import { Navigation } from '../src/components/navigation';
 
 class Header extends React.Component {
 
      render() {
-          return (<>
-               <header>
-                    <h3>Header</h3>
-                    <p>This is morning snack's temporary header</p>
-               </header>
+          return (
+          <>
+          <section className='header'>
+               <section className='header-top'>
+                    <section className='header-top_logo'>
+                         <a href="/" className='header-logo'>LOGO</a>
+                    </section>
+                    <section className='header-top_navbar'>
+                        <Navigation />
+                    </section>
+               </section>
+               <section className='header-bottom'>
+                   
+               </section>
+          </section>
           </>  
           )  
      }
