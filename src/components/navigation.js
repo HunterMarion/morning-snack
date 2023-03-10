@@ -13,6 +13,7 @@ class Navigation extends React.Component {
                     <a href="/catering" className="nav-link">Catering</a>
                     <a href="/about" className="nav-link">About Us</a>
                     <a href="/checkout" className="nav-link">Checkout</a>
+                    <a href="/reservations" className='bookReservation'><button>BOOK A RESERVATION</button></a>
                </section>
           )
      }

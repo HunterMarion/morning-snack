@@ -6,17 +6,13 @@ class Header extends React.Component {
      render() {
           return (
           <>
-          <header className='menuHeader'>
+          <header className='header'>
 
                <div className='headerLogo'></div>
 
                <div className='headerNav'>
                     <Navigation />
-               </div>
-
-               <div className='bookReservation'>
-                    <button>BOOK A RESERVATION</button>
-               </div>
+               </div>       
 
                <div className='menuHero'>
                     {/*<h1 className='menuHeroText'>Welcome to Morning Snack</h1>*/}
