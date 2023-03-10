@@ -1,20 +1,36 @@
 import React from 'react';
 
 
-
-/* Navbar component to navigate to various sections of the page, smooth scroll to each section */
-
 class Navigation extends React.Component {
 
      render() {
           return (
-               <section className='navbar'>
-                    <a href="/" className="nav-link">Menu</a>
-                    <a href="/catering" className="nav-link">Catering</a>
-                    <a href="/about" className="nav-link">About Us</a>
-                    <a href="/checkout" className="nav-link">Checkout</a>
-                    <a href="/reservations" className='bookReservation'><button>BOOK A RESERVATION</button></a>
-               </section>
+               <>
+               <nav>
+                    <ul className="nav nav-pills justify-content-end">
+                         <li className="nav-item">
+                              <a href="/" className="nav-link">MENU</a>
+                         </li>
+                    
+                         <li className="nav-item">
+                              <a className="nav-link" href="/catering">CATERING</a>
+                         </li>
+                    
+                         <li className="nav-item">
+                              <a className="nav-link" href="/about">ABOUT</a>
+                         </li>
+                    
+                         <li className="nav-item">
+                              <a className="nav-link" href="/checkout">CHECKOUT</a>
+                         </li>
+
+                         <li className="nav-item">
+                              <a className="nav-link" href="/reservations">
+                              <button className='bookReservation'>BOOK A RESERVATION</button></a>
+                         </li>
+                     </ul>
+               </nav>
+               </>
           )
      }
 }

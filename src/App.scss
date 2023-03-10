@@ -1,0 +1,100 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./styles/variables";
+
+/*Universal CSS*/
+
+.App {
+    background-color: #EBEDF2;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #591902;
+  }
+  
+nav {
+    font: Arial, Helvetica, sans-serif;
+    color: #591902;
+  }
+  
+/*body {
+    background-color: #EBEDF2;
+    font-family: Arial, Helvetica, serif;
+    color: black;
+  } 
+  
+  h2, h3, h4 {
+    font-family: Garamond, sans-serif;
+    color: #591902;
+  }
+  
+  footer {
+    background-color: #BF7960;
+  }
+  
+  
+  
+  
+  
+  /*Classes*/
+  
+  /*
+  .justify-content-end{
+    
+  }
+  */
+  
+  /*
+  .header {
+    
+  }*/
+  
+  
+  /*Logo image*/
+  .headerLogo {
+    background-image: url(assets/logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  /*
+  .headerNav {
+  
+  }
+  */
+  
+  /*Menu hero image*/
+  .menuHero {
+    width: 100%;
+    height: 720px;
+    background-image: url(assets/cafe-room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /*Text overlaid onto Menu's hero image*/
+  /*.menuHeroText {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    translate: translate(-50%,-50%);
+    color: white;
+    font-size: 3em;
+  }*/
+  
+  
+  /*
+  .bookReservation {
+  
+  }
+  */
+  
+  
+  /* IDs*/
+  
+  
+  
+  /*Specific CSS Features*/

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Navigation from '../src/components/navigation';
 import Home from '../src/pages/Home';
 import Checkout from '../src/pages/Checkout';
@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-     <div>
+     <div className="App">
           <Header/>
                <Router>
                     <Routes>
