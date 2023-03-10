@@ -16,15 +16,15 @@ function App() {
   return (
      <div>
           <Header/>
-          <Router>
-               <Routes>
-                    <Route exact path="/"  element={<Home />}/>
-                    <Route exact path="/reservations" element={<Reservations />}/>
-                    <Route exact path="/catering" element={<Catering />} />
-                    <Route exact path="/about"  element={<About />}/>
-                    <Route exact path="/checkout" element={<Checkout />} />
-               </Routes>
-          </Router>
+               <Router>
+                    <Routes>
+                         <Route exact path="/"  element={<Home />}/>
+                         <Route exact path="/reservations" element={<Reservations />}/>
+                         <Route exact path="/catering" element={<Catering />} />
+                         <Route exact path="/about"  element={<About />}/>
+                         <Route exact path="/checkout" element={<Checkout />} />
+                    </Routes>
+               </Router>
           <Footer/>
      </div>
          
