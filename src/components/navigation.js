@@ -9,7 +9,7 @@ class Navigation extends React.Component {
                <>
                <Nav className="justify-content-end" gap={5}>
                     <NavItem>
-                         <Nav.Link href="/">HOME</Nav.Link>
+                         <Nav.Link href="/">MENU</Nav.Link>
                     </NavItem>
                     <NavItem>
                          <NavLink href="/catering">CATERING</NavLink>

@@ -7,16 +7,16 @@ class Header extends React.Component {
      render() {
           return (
                <>
+               <header className="header">
                <Container>
                     <Row>
-                         <Col>
-                              <img src="assets/logo.png" height="100" width="150" alt="Morning Snack"></img>
-                         </Col>
+                         <Col><div className="headerLogo"></div></Col>
                     </Row>
                     <Row>
                          <Col><div className='headerNav'><Navigation /></div></Col>
                     </Row>
-               </Container>    
+               </Container>  
+               </header>  
                </>  
           )  
      }
