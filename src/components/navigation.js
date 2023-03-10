@@ -1,41 +1,28 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import { Button, Nav, NavItem, NavLink } from 'react-bootstrap';
 
 
 class Navigation extends React.Component {
 
-     render() {
-          return (
+     render() { 
+          return ( 
                <>
-               <div className="navbar">
-                    <ul className="nav nav-pills justify-content-end">
-                         <li className="nav-item">
-                              <a href="/" className="nav-link">MENU</a>
-                         </li>
-                    
-                         <li className="nav-item">
-                              <a className="nav-link" href="/catering">CATERING</a>
-                         </li>
-                    
-                         <li className="nav-item">
-                              <a className="nav-link" href="/about">ABOUT</a>
-                         </li>
-                    
-                         <li className="nav-item">
-                              <a className="nav-link" href="/checkout">CHECKOUT</a>
-                         </li>
+               <Nav className="justify-content-end" gap={5}>
+                    <NavItem>
+                         <Nav.Link href="/">HOME</Nav.Link>
+                    </NavItem>
+                    <NavItem>
+                         <NavLink href="/catering">CATERING</NavLink>
+                    </NavItem>
+                    <NavItem>
+                         <NavLink href="/about">ABOUT</NavLink>
+                    </NavItem>
+                    <NavItem>
+                         <NavLink href="/checkout">CHECKOUT</NavLink>
+                    </NavItem>    
 
-                         <li className="nav-item">
-                              <a className="nav-link" href="/reservations">
-                              <button className='bookReservation'>BOOK A RESERVATION</button></a>
-                         </li>
-                     </ul>
-               </div>
-
-               <div className="reserveButton">
-                    <Button variant="light">BOOK A RESERVATION</Button>
-               </div>
-
+                    <Button variant="light" href="/reservations">BOOK A RESERVATION</Button>           
+               </Nav>
                </>
           )
      }
