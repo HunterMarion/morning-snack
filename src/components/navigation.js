@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 
 class Navigation extends React.Component {
@@ -6,7 +7,7 @@ class Navigation extends React.Component {
      render() {
           return (
                <>
-               <nav>
+               <div className="navbar">
                     <ul className="nav nav-pills justify-content-end">
                          <li className="nav-item">
                               <a href="/" className="nav-link">MENU</a>
@@ -29,7 +30,12 @@ class Navigation extends React.Component {
                               <button className='bookReservation'>BOOK A RESERVATION</button></a>
                          </li>
                      </ul>
-               </nav>
+               </div>
+
+               <div className="reserveButton">
+                    <Button variant="light">BOOK A RESERVATION</Button>
+               </div>
+
                </>
           )
      }
